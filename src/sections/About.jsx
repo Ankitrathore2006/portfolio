@@ -5,30 +5,10 @@ import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
 import TitleHeader from "../components/TitleHeader";
 import GradientSpheres from "../components/GradientSpheres";
-// import gsap from "gsap";
-// import { useGSAP } from "@gsap/react";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-// gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const grid2Container = useRef();
 
-  // useGSAP(() => {
-  //   gsap.from("#card", {
-  //     y: 50,
-  //     opacity: 0,
-  //     stagger: 0.1,
-  //     duration: 0.8,
-  //     ease: "power3.inOut",
-  //     scrollTrigger: {
-  //       trigger: "#about",
-  //       start: "top center",
-  //       end: "bottom center",
-  //       scrub: true,
-  //       toggleActions: "play none none reverse",
-  //     },
-  //   });
-  // });
 
   return (
     <section id="about" className="flex-center relative md:p-0 px-5">
