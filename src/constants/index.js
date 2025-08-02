@@ -150,7 +150,7 @@ const slides = [
     img: "/images/flight-compare.webp",
     description:
       "A flight comparison web app with real-time search, price filtering, and booking management. Built using React, Node.js, MongoDB, Redux, and Material-UI.",
-    link: "https://github.com/Ankitrathore2006/flight-comparign",
+    link: "https://flight-comparign-frontend.vercel.app/",
   },
   {
     id: 9,
