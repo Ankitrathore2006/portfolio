@@ -11,20 +11,22 @@ const Footer = () => {
           className="h-20 object-cover object-center"
         />
       </div>
-      <div className="b-name">
+      <div className="b-name w-full text-center">
         <h2><span></span>ANKIT <span></span><span>RATHORE</span></h2>
       </div>
       <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
           <div
             key={index}
-            className="cursor-pointer hover:-translate-y-5 transition-all duration-700"
+            className=" hover:-translate-y-2 transition-all duration-700"
           >
-            <img
-              src={icon.icon}
-              alt={icon.name}
-              className="md:size-10 size-8"
-            />
+            <a href={icon.href} target="_blank" rel="noopener noreferrer">
+              <img
+                src={icon.icon}
+                alt={icon.name}
+                className="md:size-10 size-8"
+              />
+            </a>
           </div>
         ))}
       </div>
